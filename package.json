@@ -1,0 +1,29 @@
+{
+  "name": "bank",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "test": "mocha tests/**/*.test.js --exit"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "4.17",
+    "joi": "^17.9.2",
+    "md5": "^2.3.0",
+    "mysql2": "2.3"
+  },
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "chai-http": "^4.3.0",
+    "mocha": "^10.0.0",
+    "nodemon": "^3.0.1",
+    "sinon": "^14.0.0",
+    "sinon-chai": "3.7"
+  }
+}
